@@ -1,0 +1,82 @@
+body{ 
+    margin:0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image:url(img.png);
+}
+html{ 
+    scroll-behavior: smooth;
+}
+header{ 
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(139, 207, 207);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 100px;
+    padding-bottom: 50px;
+    font-size: larger;
+}
+nav a{
+    padding: 10px 25px;
+    text-decoration: none;
+    color: rgb(1, 53, 18);
+    font-family: 'Audiowide';
+    
+}
+div a{
+    padding: 30px;
+    text-decoration: none;
+}
+.banner{
+    color:white;
+}
+nav a:hover{
+    color: rgb(4, 1, 138);
+    transition: 0.75s;
+    text-shadow: 0px 0px 5px rgb(40, 99, 119);
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgb(224, 235, 236);
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 5px 5px 5px 2px deeppink;
+    padding: 20px;
+}
+section.project{ 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image:url(img.png);
+    background-position: center;
+    height: 100px;
+}
+section.project{
+    height: 800px;
+    text-align: center;
+    font-size: 30px;
+}
+section.howto{ 
+    height: 800px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    
+}
+section.profile{
+    height: 800px;
+    text-align: center;
+}
+.kotakBiotek{
+    width: 40%;
+    margin-left: 50px;
+    padding-top: 100px;
+}
+.Danmuji{
+    font-size: 50px;
+
+
+}
+
