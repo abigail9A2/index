@@ -10,6 +10,7 @@ header{
     text-align: center;
     width: 100%;
     background-color: rgb(219, 221, 225);
+    font-size: 30px;
 }
 .banner{
     padding: 10px;
@@ -49,6 +50,8 @@ section.home{
     width: 50%;
     margin-left: 10px;
     padding-top: 25px;
+    padding: 5px;
+    margin: 50px;
 }
 
 section.howto{
@@ -66,14 +69,16 @@ img{
 }
 section.profile{
     min-height: 100vh;
-    padding-top: 100px;
+    padding-top: 130px;
 }
 .cardProfile{
-    background-color: rgb(213, 209, 209);
+    background-color: rgb(29, 51, 126);
     padding: 15px;
     width:300px;
     margin: auto;
     text-align: center;
+    box-shadow: 5px 5px 5px -2px;
+    color: aquamarine;
 }
 .medsos{
     left: 0;
@@ -93,5 +98,5 @@ section.howto{
     text-align: center;
 }
 header img{ 
-    height: 70px;
+    height: 90px;
 }
